@@ -1,5 +1,5 @@
 wget https://raw.githubusercontent.com/dokku/dokku/v0.25.7/bootstrap.sh
-sudo DOKKU_TAG=v0.25.7 bash bootstrap.sh
+sudo DOKKU_TAG=v0.26.6 bash bootstrap.sh
 sudo dokku plugin:install-dependencies --core 
 sudo dokku plugin:install https://github.com/dokku/dokku-postgres.git postgres
 sudo dokku plugin:install https://github.com/dokku/dokku-mongo.git mongo
